@@ -166,8 +166,8 @@ if [ -z "$(ls -A1 "${BUILD_DIR}")" ]; then abort "All builds failed."; fi
 
 log "\nInstall [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube, YT Music and Google Photos APKs"
 # log "Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanced YouTube and YT Music from Play Store"
-log "\nCredits: [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)\n"
-log "\nfork: [RevancedF](https://github.com/rishikpogu/revancedf)"
+log "\nCredits: [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)"
+log "\nfork: [RevancedF](https://github.com/rishikpogu/revancedf)\n"
 log "$(cat "$TEMP_DIR"/*-rv/changelog.md)"
 
 SKIPPED=$(cat "$TEMP_DIR"/skipped 2>/dev/null || :)
